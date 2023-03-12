@@ -18,7 +18,10 @@ module.exports = {
       // 可以在这个函数中对它进行详细的自定义配置
       // 只要最后return出去就行
       let cdn = {
-        js: [],
+        js: [
+          'https://cdnjs.cloudflare.com/ajax/libs/react/18.1.0/umd/react.production.min.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.1.0/umd/react-dom.production.min.js',
+        ],
         css: []
       }
       // 只有生产环境才配置
